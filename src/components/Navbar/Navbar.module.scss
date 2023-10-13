@@ -1,0 +1,44 @@
+@import "../../colors.scss";
+
+.navbar {
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  background: $navBg;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.cart_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px 20px;
+  gap: 5px;
+  border-radius: 100px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+
+  img {
+    width: 24px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    font-size: 20px;
+    height: 75px;
+    background: none;
+    box-shadow: none;
+    margin-bottom: 5px;
+  }
+}
